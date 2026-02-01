@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.db
+*.db-shm
+/.vs/slnx.sqlite
+/.vs/algora-backend/CopilotIndices/17.14.995.13737/CodeChunks.db-wal
+/.vs/algora-backend/CopilotIndices/17.14.995.13737/SemanticSymbols.db-wal
+/.vs/VSWorkspaceState.json
+/.vs/algora-backend/v17/DocumentLayout.json
+/.vs/slnx.sqlite-journal
+/.vs/algora-backend/v17/DocumentLayout.backup.json
+/.vs/algora-backend/FileContentIndex/1c725d22-5c58-4228-b7a6-0de03f0c6df3.vsidx
+/.vs/algora-backend/FileContentIndex/4cd99ad9-0366-4a61-91bc-036f23aac913.vsidx
+/.vs/algora-backend/FileContentIndex/39021d4a-87c4-4f90-b10c-5bf99264d603.vsidx
+*.vsidx
+*.wsuo
