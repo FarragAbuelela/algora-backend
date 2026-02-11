@@ -16,3 +16,7 @@
 /.vs/algora-backend/FileContentIndex/39021d4a-87c4-4f90-b10c-5bf99264d603.vsidx
 *.vsidx
 *.wsuo
+/src/Algora.Api/bin/Debug/net9.0
+/.vs
+/src/Algora.Infrastructure/bin/Debug/net9.0
+/src/Algora.Application/bin/Debug/net9.0
