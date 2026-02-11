@@ -1,0 +1,585 @@
+[
+  {
+    "ContainingType": "Algora.Api.Endpoints.AuthEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAuthEndpoints\u003Eb__0_1",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Algora.Application.Features.Auth.LoginCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Authentication"
+    ],
+    "EndpointName": "Login"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.AuthEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAuthEndpoints\u003Eb__0_2",
+    "RelativePath": "api/auth/refresh",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Algora.Application.Features.Auth.RefreshTokenCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Authentication"
+    ],
+    "EndpointName": "RefreshToken"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.AuthEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAuthEndpoints\u003Eb__0_0",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Algora.Application.Features.Auth.RegisterCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Authentication"
+    ],
+    "EndpointName": "Register"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.CampEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCampEndpoints\u003Eb__0_0",
+    "RelativePath": "api/camps/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Algora.Application.Features.Camps.CreateCampCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Camps"
+    ],
+    "EndpointName": "CreateCamp"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.CampEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCampEndpoints\u003Eb__0_2",
+    "RelativePath": "api/camps/{campId}/problems",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "campId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Algora.Application.Features.Camps.AddProblemCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Camps"
+    ],
+    "EndpointName": "AddProblem"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.CampEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCampEndpoints\u003Eb__0_1",
+    "RelativePath": "api/camps/{campId}/sheets",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "campId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Algora.Application.Features.Camps.AddCampSheetCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Camps"
+    ],
+    "EndpointName": "AddCampSheet"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.CommunityEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCommunityEndpoints\u003Eb__0_0",
+    "RelativePath": "api/communities/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Algora.Application.Features.Communities.CreateCommunityCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Communities"
+    ],
+    "EndpointName": "CreateCommunity"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.CommunityEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCommunityEndpoints\u003Eb__0_1",
+    "RelativePath": "api/communities/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Communities"
+    ],
+    "EndpointName": "ListCommunities"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_3",
+    "RelativePath": "api/health",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "System"
+    ],
+    "EndpointName": "HealthCheck"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.LeaderboardEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapLeaderboardEndpoints\u003Eb__0_0",
+    "RelativePath": "api/leaderboard/camp/{campId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "campId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "role",
+        "Type": "System.Nullable\u00601[[Algora.Domain.Enums.Role, Algora.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "top",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Leaderboard"
+    ],
+    "EndpointName": "GetCampLeaderboard"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.MentorshipEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapMentorshipEndpoints\u003Eb__0_0",
+    "RelativePath": "api/mentorship/assign",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Algora.Application.Features.Mentorship.AssignStudentToMentorCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Mentorship"
+    ],
+    "EndpointName": "AssignStudentToMentor"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.NotificationEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapNotificationEndpoints\u003Eb__0_0",
+    "RelativePath": "api/notifications/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "unreadOnly",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Notifications"
+    ],
+    "EndpointName": "GetMyNotifications"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.PointEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPointEndpoints\u003Eb__0_0",
+    "RelativePath": "api/points/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Algora.Application.Features.Points.AddPointsCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Points"
+    ],
+    "EndpointName": "AddPoints"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.PointEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPointEndpoints\u003Eb__0_1",
+    "RelativePath": "api/points/{userId}/{campId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "campId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Points"
+    ],
+    "EndpointName": "GetUserPoints"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.RoleEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapRoleEndpoints\u003Eb__0_0",
+    "RelativePath": "api/roles/upgrade-community-leader",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Algora.Application.Features.Roles.UpgradeToCommunityLeaderCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Roles"
+    ],
+    "EndpointName": "UpgradeToCommunityLeader"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.SessionEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapSessionEndpoints\u003Eb__0_0",
+    "RelativePath": "api/sessions/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Algora.Application.Features.Sessions.CreateSessionCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Sessions"
+    ],
+    "EndpointName": "CreateSession"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.SessionEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapSessionEndpoints\u003Eb__0_1",
+    "RelativePath": "api/sessions/my-sessions",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "to",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Sessions"
+    ],
+    "EndpointName": "GetMySessions"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.TaskEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTaskEndpoints\u003Eb__0_0",
+    "RelativePath": "api/tasks/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Algora.Application.Features.Tasks.CreateTaskCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Tasks"
+    ],
+    "EndpointName": "CreateTask"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.TaskEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTaskEndpoints\u003Eb__0_1",
+    "RelativePath": "api/tasks/my-tasks",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Tasks"
+    ],
+    "EndpointName": "GetMyTasks"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.TeamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapTeamEndpoints\u003Eb__0_0",
+    "RelativePath": "api/teams/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Algora.Application.Features.Teams.CreateTeamCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Teams"
+    ],
+    "EndpointName": "CreateTeam"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.UserEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUserEndpoints\u003Eb__0_0",
+    "RelativePath": "api/users/{userId}/roles",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Algora.Application.Features.Users.AssignRoleCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Users"
+    ],
+    "EndpointName": "AssignRole"
+  },
+  {
+    "ContainingType": "Algora.Api.Endpoints.UserEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapUserEndpoints\u003Eb__0_1",
+    "RelativePath": "api/users/profile",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Users"
+    ],
+    "EndpointName": "GetMyProfile"
+  }
+]

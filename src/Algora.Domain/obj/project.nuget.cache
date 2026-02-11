@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JKWWalKLpdc=",
+  "dgSpecHash": "4ao63wz4ulY=",
   "success": true,
-  "projectFilePath": "D:\\Farrag\\Algora Api\\Algora\\src\\Algora.Domain\\Algora.Domain.csproj",
+  "projectFilePath": "D:\\Projects\\algora-backend\\src\\Algora.Domain\\Algora.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

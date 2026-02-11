@@ -1,0 +1,12 @@
+D:\Projects\algora-backend\src\Algora.Domain\bin\Debug\net9.0\Algora.Domain.deps.json
+D:\Projects\algora-backend\src\Algora.Domain\bin\Debug\net9.0\Algora.Domain.dll
+D:\Projects\algora-backend\src\Algora.Domain\bin\Debug\net9.0\Algora.Domain.pdb
+D:\Projects\algora-backend\src\Algora.Domain\obj\Debug\net9.0\Algora.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\algora-backend\src\Algora.Domain\obj\Debug\net9.0\Algora.Domain.AssemblyInfoInputs.cache
+D:\Projects\algora-backend\src\Algora.Domain\obj\Debug\net9.0\Algora.Domain.AssemblyInfo.cs
+D:\Projects\algora-backend\src\Algora.Domain\obj\Debug\net9.0\Algora.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\algora-backend\src\Algora.Domain\obj\Debug\net9.0\Algora.Domain.sourcelink.json
+D:\Projects\algora-backend\src\Algora.Domain\obj\Debug\net9.0\Algora.Domain.dll
+D:\Projects\algora-backend\src\Algora.Domain\obj\Debug\net9.0\refint\Algora.Domain.dll
+D:\Projects\algora-backend\src\Algora.Domain\obj\Debug\net9.0\Algora.Domain.pdb
+D:\Projects\algora-backend\src\Algora.Domain\obj\Debug\net9.0\ref\Algora.Domain.dll
